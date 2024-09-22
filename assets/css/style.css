@@ -39,7 +39,7 @@ header {
 }
 
 header a {
-    text-decoration: 0;
+    text-decoration: none;
     color: inherit;
 }
 
@@ -112,7 +112,7 @@ main {
 }
 
 #cover-text > h2, #cover-text > h3 {
-    color: #ffffff
+    color: #ffffff;
 }
 
 /* Footer*/
@@ -153,7 +153,7 @@ main {
         display: none;
     }
 
-    #logo{
+    #logo {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem; 
@@ -175,7 +175,7 @@ main {
 /* media query for laptops and upwards (992px and up) */
 @media screen and (min-width: 992px) {
     /* target <a> tags that are descendents of the menu when they are being hovered */
-    #menu a:hover {
+    #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
 }
