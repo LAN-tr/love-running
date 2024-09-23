@@ -211,6 +211,14 @@ main {
     color: #3a3a3a;
 }
 
+/* media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 570px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header*/
@@ -268,6 +276,11 @@ main {
         align-self: flex-end;
     }
 
+    /* Gallery */
+    #photos {
+        column-count: 3;
+    }
+
 }
 
 /* media query for laptops and upwards (992px and up) */
@@ -275,6 +288,11 @@ main {
     /* target <a> tags that are descendents of the menu when they are being hovered */
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    /* gallery */
+    #photos {
+        column-count: 4;
     }
 }
 
